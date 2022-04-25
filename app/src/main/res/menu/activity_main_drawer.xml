@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_facebook"
+            android:icon="@drawable/linked"
+            android:title="@string/fb" />
+        <item
+            android:id="@+id/nav_twitter"
+            android:icon="@drawable/linked"
+            android:title="@string/twt" />
+        <item
+            android:id="@+id/nav_insta"
+            android:icon="@drawable/linked"
+            android:title="@string/ig" />
+        <item
+            android:id="@+id/nav_linkedin"
+            android:icon="@drawable/linked"
+            android:title="@string/linkdin" />
+
+    </group>
+
+    <item android:title="@string/recommed">
+        <menu>
+            <item
+                android:id="@+id/nav_apps"
+                android:icon="@drawable/linked"
+                android:title="@string/apps" />
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/linked"
+                android:title="@string/rate" />
+        </menu>
+    </item>
+</menu>
